@@ -1,0 +1,19 @@
+/* Banner 1 */
+
+.banner-1{
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.banner-1-brand{
+   width: 45%;
+}
+
+.banner-1-brand p{
+   font-weight: 700;
+}
+
+
+.banner-1-des{
+   width: 80%;
+}
