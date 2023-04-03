@@ -1,19 +1,55 @@
-/* Banner 1 */
-
-.banner-1{
+.banner-1,.monstera-container{
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
 }
+
+
+
+
+
+/* Home Section */
+
 .banner-1-brand{
    width: 45%;
+   font-family: 'Mulish', sans-serif;
 }
-
-.banner-1-brand p{
+.mybrand{
    font-weight: 700;
 }
-
-
+.mybrand-header{
+   font-size: 1.4rem;
+}
+.mybrand-footer{
+   font-size: 2.5rem;
+}
 .banner-1-des{
    width: 80%;
+}
+.banner-1-des p{
+   font-size: 1rem;
+}
+.banner-1-des-img1{
+   width: 28%;
+}
+.banner-1-des-img2{
+   width: 17%;
+}
+
+
+/* Monstera Plant Care */
+.monstera-title{
+   color: #40513B;
+   margin-top: 55%;
+   left: 13%;
+   top: 11%;
+}
+.monstera-title h1{
+   font-size: 6.5rem;
+   font-family: 'Mulish', sans-serif;
+}
+.monstera-title h2{
+   font-size: 5.5rem;
+   font-family: 'Sacramento', cursive;
+
 }
