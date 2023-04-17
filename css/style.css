@@ -135,24 +135,27 @@
    /* Home section */
    .banner-1 .row{
       padding: 0% !important;
+      margin-top: 1% !important;
+      margin-bottom: 3% !important;
    }
 .mybrand{
    font-weight: 700;
-   font-size: 1.7rem !important;
+   font-size: 1.4rem !important;
 }
 .mybrand-header{
-   font-size: .5rem;
+   padding-top: 50% !important;
+   font-size: .4rem;
 }
 .mybrand-footer{
-   font-size: 1rem;
+   font-size: .9rem;
 }
 .banner-1-des{
-   width: 75%;
-   padding-left: 3% !important;
-   margin-top: 1% !important;
+   width: 100%;
+   padding-left: 0% !important;
+   margin-top: 5% !important;
 }
 .banner-1-des p{
-   font-size: .5rem;
+   font-size: .4rem;
 }
 .banner-1-des-img1{
    width: 25%;
