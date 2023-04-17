@@ -1,5 +1,5 @@
 .banner-1,.monstera-container,.arrival-container,#Banner-6{
-   background-position: center;
+   /* background-position: center; */
    background-size: cover;
    background-repeat: no-repeat;
 }
@@ -27,7 +27,8 @@
    width: 65%;
 }
 .banner-1-des p{
-   font-size: 1rem;
+   margin-top: 2% !important;
+   font-size: 1.5rem;
 }
 .banner-1-des-img1{
    width: 28%;
@@ -159,7 +160,7 @@
 }
 .banner-1-des-img1{
    width: 25%;
-   margin-top: 3% !important;
+   margin-top: 10% !important;
 }
 .banner-1-des-img2{
    width: 20%;
@@ -167,3 +168,4 @@
 }
 
 }
+

@@ -1,0 +1,265 @@
+ .banner-1{
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.banner-1{
+    color: white;
+}
+
+.banner-1-brand{
+    width: 50%;
+    font-family: 'Mulish', sans-serif;
+}
+.banner-1-des{
+    width: 75%;
+}
+
+@media (max-width:575px){
+    
+.banner-1 .row{
+    padding: 3% 0% 3% 0%;
+}
+.banner-1-brand p{
+    margin: 0% auto 0% auto;
+    line-height: 95%;
+}
+.mybrand{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.mybrand-header{
+    font-size: .57em;
+}
+.mybrand-footer{
+    font-size: 1.15em;
+}
+.banner-1-des{
+    margin-top: 10%;
+    margin-left: 1.8em;
+}
+.banner-1-des p ,.banner-1-des-img1,.banner-1-des-img2{
+    margin: 0% auto 0% auto;
+}
+.banner-1-des-img1 , .banner-1-des-img2{
+    position: relative;
+}
+.banner-1-des p{
+ font-size: .6em;
+}
+.banner-1-des-img1{
+ width: 2em;
+ top: .5em;
+}
+.banner-1-des-img2{
+    width: 1.9em;
+    bottom:.4em;
+}
+}
+
+@media (min-width:576px) and (max-width:767px) {
+        
+.banner-1 .row{
+    padding: 3% 0% 3% 0%;
+}
+.banner-1-brand p{
+    margin: 0% auto 0% auto;
+    line-height: 95%;
+}
+.mybrand{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.mybrand-header{
+    font-size: .75em;
+}
+.mybrand-footer{
+    font-size: 1.45em;
+}
+.banner-1-des{
+    margin-top: 10%;
+    margin-left: 2em;
+}
+.banner-1-des p ,.banner-1-des-img1,.banner-1-des-img2{
+    margin: 0% auto 0% auto;
+}
+.banner-1-des-img1 , .banner-1-des-img2{
+    position: relative;
+}
+.banner-1-des p{
+ font-size: .85em;
+}
+.banner-1-des-img1{
+ width: 2.9em;
+ top: .5em;
+}
+.banner-1-des-img2{
+    width: 2.9em;
+    bottom:.4em;
+}
+}
+@media (min-width:768px) and (max-width:991px){
+
+    .banner-1 .row{
+        padding: 3% 0% 3% 0%;
+    }
+    .banner-1-brand p{
+        margin: 0% auto 0% auto;
+        line-height: 95%;
+    }
+    .mybrand{
+        font-size: 3.5rem;
+        font-weight: 700;
+    }
+    .mybrand-header{
+        font-size: 1em;
+    }
+    .mybrand-footer{
+        font-size: 2em;
+    }
+    .banner-1-des{
+        margin-top: 10%;
+        margin-left: 2.5em;
+    }
+    .banner-1-des p ,.banner-1-des-img1,.banner-1-des-img2{
+        margin: 0% auto 0% auto;
+    }
+    .banner-1-des-img1 , .banner-1-des-img2{
+        position: relative;
+    }
+    .banner-1-des p{
+     font-size: 1em;
+    }
+    .banner-1-des-img1{
+     width: 3.5em;
+     top: .5em;
+    }
+    .banner-1-des-img2{
+        width: 3.5em;
+        bottom:.4em;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px){
+
+    .banner-1 .row{
+        padding: 3% 0% 3% 0%;
+    }
+    .banner-1-brand p{
+        margin: 0% auto 0% auto;
+        line-height: 95%;
+    }
+    .mybrand{
+        font-size: 4rem;
+        font-weight: 700;
+    }
+    .mybrand-header{
+        font-size: 1.25em;
+    }
+    .mybrand-footer{
+        font-size: 2.35em;
+    }
+    .banner-1-des{
+        margin-top: 10%;
+        margin-left: 3.5em;
+    }
+    .banner-1-des p ,.banner-1-des-img1,.banner-1-des-img2{
+        margin: 0% auto 0% auto;
+    }
+    .banner-1-des-img1 , .banner-1-des-img2{
+        position: relative;
+    }
+    .banner-1-des p{
+     font-size: 1.1em;
+    }
+    .banner-1-des-img1{
+     width: 4em;
+     top: .5em;
+    }
+    .banner-1-des-img2{
+        width: 4em;
+        bottom:.4em;
+    }
+}
+@media (min-width:1200px) and (max-width:1399px){
+
+    .banner-1 .row{
+        padding: 3% 0% 3% 0%;
+    }
+    .banner-1-brand p{
+        margin: 0% auto 0% auto;
+        line-height: 95%;
+    }
+    .mybrand{
+        font-size: 4.5rem;
+        font-weight: 700;
+    }
+    .mybrand-header{
+        font-size: 1.4em;
+    }
+    .mybrand-footer{
+        font-size: 2.7em;
+    }
+    .banner-1-des{
+        margin-top: 10%;
+        margin-left: 4.5em;
+    }
+    .banner-1-des p ,.banner-1-des-img1,.banner-1-des-img2{
+        margin: 0% auto 0% auto;
+    }
+    .banner-1-des-img1 , .banner-1-des-img2{
+        position: relative;
+    }
+    .banner-1-des p{
+     font-size: 1.3em;
+    }
+    .banner-1-des-img1{
+     width: 5em;
+     top: .5em;
+    }
+    .banner-1-des-img2{
+        width: 5em;
+        bottom:.4em;
+    }
+}
+@media (min-width:1400px){
+    .banner-1 .row{
+        padding: 3% 0% 3% 0%;
+    }
+    .banner-1-brand p{
+        margin: 0% auto 0% auto;
+        line-height: 95%;
+    }
+    .mybrand{
+        font-size: 5rem;
+        font-weight: 700;
+    }
+    .mybrand-header{
+        font-size: 1.6em;
+    }
+    .mybrand-footer{
+        font-size: 3em;
+    }
+    .banner-1-des{
+        margin-top: 10%;
+        margin-left:5em;
+    }
+    .banner-1-des p ,.banner-1-des-img1,.banner-1-des-img2{
+        margin: 0% auto 0% auto;
+    }
+    .banner-1-des-img1 , .banner-1-des-img2{
+        position: relative;
+    }
+    .banner-1-des p{
+     font-size: 1.5em;
+    }
+    .banner-1-des-img1{
+     width: 5.5em;
+     top: .5em;
+    }
+    .banner-1-des-img2{
+        width: 5.5em;
+        bottom:.4em;
+    }
+}
