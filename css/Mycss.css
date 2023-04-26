@@ -1,265 +1,466 @@
- .banner-1{
-    background-position: center;
-    background-size:cover;
-    background-repeat: no-repeat;
-}
+ .banner-1,
+ .monstera-container {
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
 
-.banner-1{
-    color: white;
-}
+ .banner-1 {
+     color: white;
+ }
 
-.banner-1-brand{
-    width: 50%;
-    font-family: 'Mulish', sans-serif;
-}
-.banner-1-des{
-    width: 75%;
-}
+ .banner-1-brand {
+     width: 50%;
+     font-family: 'Mulish', sans-serif;
+ }
 
-@media (max-width:575px){
-    
-.banner-1 .row{
-    padding: 3% 0% 3% 0%;
-}
-.banner-1-brand p{
-    margin: 0% auto 0% auto;
-    line-height: 95%;
-}
-.mybrand{
-    font-size: 1.8rem;
-    font-weight: 700;
-}
-.mybrand-header{
-    font-size: .57em;
-}
-.mybrand-footer{
-    font-size: 1.15em;
-}
-.banner-1-des{
-    margin-top: 10%;
-    margin-left: 1.8em;
-}
-.banner-1-des p ,.banner-1-des-img1,.banner-1-des-img2{
-    margin: 0% auto 0% auto;
-}
-.banner-1-des-img1 , .banner-1-des-img2{
-    position: relative;
-}
-.banner-1-des p{
- font-size: .6em;
-}
-.banner-1-des-img1{
- width: 2em;
- top: .5em;
-}
-.banner-1-des-img2{
-    width: 1.9em;
-    bottom:.4em;
-}
-}
+ .banner-1-des {
+     width: 75%;
+ }
 
-@media (min-width:576px) and (max-width:767px) {
-        
-.banner-1 .row{
-    padding: 3% 0% 3% 0%;
-}
-.banner-1-brand p{
-    margin: 0% auto 0% auto;
-    line-height: 95%;
-}
-.mybrand{
-    font-size: 2.8rem;
-    font-weight: 700;
-}
-.mybrand-header{
-    font-size: .75em;
-}
-.mybrand-footer{
-    font-size: 1.45em;
-}
-.banner-1-des{
-    margin-top: 10%;
-    margin-left: 2em;
-}
-.banner-1-des p ,.banner-1-des-img1,.banner-1-des-img2{
-    margin: 0% auto 0% auto;
-}
-.banner-1-des-img1 , .banner-1-des-img2{
-    position: relative;
-}
-.banner-1-des p{
- font-size: .85em;
-}
-.banner-1-des-img1{
- width: 2.9em;
- top: .5em;
-}
-.banner-1-des-img2{
-    width: 2.9em;
-    bottom:.4em;
-}
-}
-@media (min-width:768px) and (max-width:991px){
+ .banner-1 .row {
+     padding: 5% 0% 4% 0%;
+ }
 
-    .banner-1 .row{
-        padding: 3% 0% 3% 0%;
-    }
-    .banner-1-brand p{
-        margin: 0% auto 0% auto;
-        line-height: 95%;
-    }
-    .mybrand{
-        font-size: 3.5rem;
-        font-weight: 700;
-    }
-    .mybrand-header{
-        font-size: 1em;
-    }
-    .mybrand-footer{
-        font-size: 2em;
-    }
-    .banner-1-des{
-        margin-top: 10%;
-        margin-left: 2.5em;
-    }
-    .banner-1-des p ,.banner-1-des-img1,.banner-1-des-img2{
-        margin: 0% auto 0% auto;
-    }
-    .banner-1-des-img1 , .banner-1-des-img2{
-        position: relative;
-    }
-    .banner-1-des p{
-     font-size: 1em;
-    }
-    .banner-1-des-img1{
-     width: 3.5em;
-     top: .5em;
-    }
-    .banner-1-des-img2{
-        width: 3.5em;
-        bottom:.4em;
-    }
-}
+ .banner-1-brand p {
+     margin: 0% auto 0% auto;
+     line-height: 95%;
+ }
 
-@media (min-width:992px) and (max-width:1199px){
+ .mybrand {
+     font-weight: 700;
+ }
 
-    .banner-1 .row{
-        padding: 3% 0% 3% 0%;
-    }
-    .banner-1-brand p{
-        margin: 0% auto 0% auto;
-        line-height: 95%;
-    }
-    .mybrand{
-        font-size: 4rem;
-        font-weight: 700;
-    }
-    .mybrand-header{
-        font-size: 1.25em;
-    }
-    .mybrand-footer{
-        font-size: 2.35em;
-    }
-    .banner-1-des{
-        margin-top: 10%;
-        margin-left: 3.5em;
-    }
-    .banner-1-des p ,.banner-1-des-img1,.banner-1-des-img2{
-        margin: 0% auto 0% auto;
-    }
-    .banner-1-des-img1 , .banner-1-des-img2{
-        position: relative;
-    }
-    .banner-1-des p{
-     font-size: 1.1em;
-    }
-    .banner-1-des-img1{
-     width: 4em;
-     top: .5em;
-    }
-    .banner-1-des-img2{
-        width: 4em;
-        bottom:.4em;
-    }
-}
-@media (min-width:1200px) and (max-width:1399px){
+ .banner-1-des {
+     margin-top: 10%;
+ }
 
-    .banner-1 .row{
-        padding: 3% 0% 3% 0%;
-    }
-    .banner-1-brand p{
-        margin: 0% auto 0% auto;
-        line-height: 95%;
-    }
-    .mybrand{
-        font-size: 4.5rem;
-        font-weight: 700;
-    }
-    .mybrand-header{
-        font-size: 1.4em;
-    }
-    .mybrand-footer{
-        font-size: 2.7em;
-    }
-    .banner-1-des{
-        margin-top: 10%;
-        margin-left: 4.5em;
-    }
-    .banner-1-des p ,.banner-1-des-img1,.banner-1-des-img2{
-        margin: 0% auto 0% auto;
-    }
-    .banner-1-des-img1 , .banner-1-des-img2{
-        position: relative;
-    }
-    .banner-1-des p{
-     font-size: 1.3em;
-    }
-    .banner-1-des-img1{
-     width: 5em;
-     top: .5em;
-    }
-    .banner-1-des-img2{
-        width: 5em;
-        bottom:.4em;
-    }
-}
-@media (min-width:1400px){
-    .banner-1 .row{
-        padding: 3% 0% 3% 0%;
-    }
-    .banner-1-brand p{
-        margin: 0% auto 0% auto;
-        line-height: 95%;
-    }
-    .mybrand{
-        font-size: 5rem;
-        font-weight: 700;
-    }
-    .mybrand-header{
-        font-size: 1.6em;
-    }
-    .mybrand-footer{
-        font-size: 3em;
-    }
-    .banner-1-des{
-        margin-top: 10%;
-        margin-left:5em;
-    }
-    .banner-1-des p ,.banner-1-des-img1,.banner-1-des-img2{
-        margin: 0% auto 0% auto;
-    }
-    .banner-1-des-img1 , .banner-1-des-img2{
-        position: relative;
-    }
-    .banner-1-des p{
-     font-size: 1.5em;
-    }
-    .banner-1-des-img1{
-     width: 5.5em;
-     top: .5em;
-    }
-    .banner-1-des-img2{
-        width: 5.5em;
-        bottom:.4em;
-    }
-}
+ .banner-1-des p,
+ .banner-1-des-img1,
+ .banner-1-des-img2 {
+     margin: 0% auto 0% auto;
+ }
+
+ .banner-1-des-img1,
+ .banner-1-des-img2 {
+     position: relative;
+ }
+
+ /* monstera section */
+ .monstera-tittle-1,
+ .monstera-tittle-2 {
+     position: relative;
+     margin-left: 10%;
+ }
+
+ .monstera-tittle-1 {
+     font-family: 'Mulish', sans-serif;
+     top: 2em;
+ }
+
+ .monstera-tittle-2 {
+     font-family: 'Sacramento', cursive;
+     top: 1.6em;
+     left: 2em;
+ }
+
+ .monstera-icons-1,
+ .monstera-icons-3,
+ .monstera-icons-tittle-1,
+ .monstera-icons-tittle-3 {
+     margin-top: 1em;
+ }
+
+ .monstera-icons-2,
+ .monstera-icons-tittle-2 {
+     margin-top: .9em;
+ }
+
+ .monstera-icons-tittle-1,
+ .monstera-icons-tittle-2,
+ .monstera-icons-tittle-3 {
+     font-weight: 500;
+ }
+
+
+
+ @media (max-width:576px) {
+     .mybrand {
+         font-size: 1.8rem;
+     }
+
+     .mybrand-header {
+         font-size: .57em;
+     }
+
+     .mybrand-footer {
+         font-size: 1.15em;
+     }
+
+     .banner-1-des {
+         margin-left: 1.8em;
+     }
+
+     .banner-1-des p {
+         font-size: .6em;
+     }
+
+     .banner-1-des-img1 {
+         width: 2em;
+         top: .5em;
+     }
+
+     .banner-1-des-img2 {
+         width: 1.9em;
+         bottom: .4em;
+     }
+
+     /* monstera section */
+     .monstera-tittle-1 {
+         font-size: 2.2em;
+     }
+
+     .monstera-tittle-2 {
+         font-size: 1.6em;
+     }
+
+     .monstera-icons-1,
+     .monstera-icons-3 {
+         width: 1.1em;
+     }
+
+     .monstera-icons-2 {
+         width: .9em;
+     }
+
+     .monstera-icons-tittle-1,
+     .monstera-icons-tittle-2,
+     .monstera-icons-tittle-3 {
+         font-size: .5em;
+     }
+
+     .monstera-icons-des {
+         font-size: .45em;
+     }
+
+ }
+
+ @media (min-width:576px) and (max-width:768px) {
+     .mybrand {
+         font-size: 2.8rem;
+     }
+
+     .mybrand-header {
+         font-size: .75em;
+     }
+
+     .mybrand-footer {
+         font-size: 1.45em;
+     }
+
+     .banner-1-des {
+         margin-left: 2em;
+     }
+
+     .banner-1-des p {
+         font-size: .85em;
+     }
+
+     .banner-1-des-img1 {
+         width: 2.9em;
+         top: .5em;
+     }
+
+     .banner-1-des-img2 {
+         width: 2.9em;
+         bottom: .4em;
+     }
+
+
+     /* monstera section */
+     .monstera-tittle-1 {
+         font-size: 3em;
+         top: 1.6em;
+     }
+
+     .monstera-tittle-2 {
+         font-size: 1.9em;
+         top: 1.5em;
+     }
+
+     .monstera-icons-1,
+     .monstera-icons-3 {
+         width: 1.6em;
+     }
+
+     .monstera-icons-2 {
+         width: 1.2em;
+     }
+
+     .monstera-icons-tittle-1,
+     .monstera-icons-tittle-2,
+     .monstera-icons-tittle-3 {
+         font-size: .75em;
+     }
+
+     .monstera-icons-des {
+         font-size: .62em;
+     }
+ }
+
+ @media (min-width:768px) and (max-width:992px) {
+     .mybrand {
+         font-size: 3.5rem;
+
+     }
+
+     .mybrand-header {
+         font-size: 1em;
+     }
+
+     .mybrand-footer {
+         font-size: 2em;
+     }
+
+     .banner-1-des {
+         margin-left: 2.5em;
+     }
+
+     .banner-1-des p {
+         font-size: 1em;
+     }
+
+     .banner-1-des-img1 {
+         width: 3.5em;
+         top: .5em;
+     }
+
+     .banner-1-des-img2 {
+         width: 3.5em;
+         bottom: .4em;
+     }
+
+     /* monstera section */
+     .monstera-tittle-1 {
+         font-size: 3.7em;
+         top: 1.4em;
+     }
+
+     .monstera-tittle-2 {
+         font-size: 2.1em;
+         top: 1.48em;
+     }
+
+     .monstera-icons-1,
+     .monstera-icons-3 {
+         width: 1.8em;
+     }
+
+     .monstera-icons-2 {
+         width: 1.3em;
+     }
+
+     .monstera-icons-tittle-1,
+     .monstera-icons-tittle-2,
+     .monstera-icons-tittle-3 {
+         font-size: .88em;
+     }
+
+     .monstera-icons-des {
+         font-size: .8em;
+     }
+ }
+
+ @media (min-width:992px) and (max-width:1200px) {
+
+     .mybrand {
+         font-size: 4rem;
+
+     }
+
+     .mybrand-header {
+         font-size: 1.25em;
+     }
+
+     .mybrand-footer {
+         font-size: 2.35em;
+     }
+
+     .banner-1-des {
+         margin-left: 3.5em;
+     }
+
+     .banner-1-des p {
+         font-size: 1.1em;
+     }
+
+     .banner-1-des-img1 {
+         width: 4em;
+         top: .5em;
+     }
+
+     .banner-1-des-img2 {
+         width: 4em;
+         bottom: .4em;
+     }
+
+
+     /* monstera section */
+     .monstera-tittle-1 {
+         font-size: 5em;
+         top: 1.2em;
+     }
+
+     .monstera-tittle-2 {
+         font-size: 2.7em;
+         top: 1.38em;
+     }
+
+     .monstera-icons-1,
+     .monstera-icons-3 {
+         width: 2.5em;
+     }
+
+     .monstera-icons-2 {
+         width: 1.7em;
+     }
+
+     .monstera-icons-tittle-1,
+     .monstera-icons-tittle-2,
+     .monstera-icons-tittle-3 {
+         font-size: 1em;
+     }
+
+     .monstera-icons-des {
+         font-size: .9em;
+     }
+ }
+
+ @media (min-width:1200px) and (max-width:1400px) {
+     .mybrand {
+         font-size: 4.5rem;
+
+     }
+
+     .mybrand-header {
+         font-size: 1.4em;
+     }
+
+     .mybrand-footer {
+         font-size: 2.7em;
+     }
+
+     .banner-1-des {
+         margin-left: 4.5em;
+     }
+
+     .banner-1-des p {
+         font-size: 1.3em;
+     }
+
+     .banner-1-des-img1 {
+         width: 5em;
+         top: .5em;
+     }
+
+     .banner-1-des-img2 {
+         width: 5em;
+         bottom: .4em;
+     }
+
+     /* monstera section */
+     .monstera-tittle-1 {
+         font-size: 7em;
+         top: 1em;
+     }
+
+     .monstera-tittle-2 {
+         font-size: 3.8em;
+         top: 1.28em;
+     }
+
+     .monstera-icons-1,
+     .monstera-icons-3 {
+         width: 3.2em;
+     }
+
+     .monstera-icons-2 {
+         width: 2.4em;
+     }
+
+     .monstera-icons-tittle-1,
+     .monstera-icons-tittle-2,
+     .monstera-icons-tittle-3 {
+         font-size: 1.5em;
+     }
+
+     .monstera-icons-des {
+         font-size: 1.35em;
+     }
+ }
+
+ @media (min-width:1400px) {
+     .mybrand {
+         font-size: 7em;
+     }
+
+     .mybrand-header {
+         font-size: 2.2em;
+     }
+
+     .mybrand-footer {
+         font-size: 4em;
+     }
+
+     .banner-1-des {
+         margin-left: 5em;
+     }
+
+     .banner-1-des p {
+         font-size: 1.9em;
+     }
+
+     .banner-1-des-img1 {
+         width: 20%;
+         top: .5em;
+     }
+
+     .banner-1-des-img2 {
+         width: 20%;
+         bottom: -0.9em;
+     }
+
+
+     /* monstera section */
+     .monstera-tittle-1 {
+        margin-top: 15%;
+         font-size: 8em;
+         top: 1em;
+     }
+
+     .monstera-tittle-2 {
+         font-size: 4em;
+         top: 1.28em;
+     }
+
+     .monstera-icons-1,
+     .monstera-icons-3 {
+         width: 3.8em;
+         margin-top: 10%;
+     }
+
+     .monstera-icons-2 {
+         width: 2.9em;
+         margin-top: 10%;
+     }
+
+     .monstera-icons-tittle-1,
+     .monstera-icons-tittle-2,
+     .monstera-icons-tittle-3 {
+         font-size: 2em;
+     }
+
+     .monstera-icons-des {
+         font-size: 1.8em;
+     }
+ }
